@@ -6,8 +6,29 @@
             Dario Karanovic
         </title>
         <link rel="stylesheet" href="stylesheet.css">
+        <link rel="icon" href="cube.png">
+        <div class="linksDiv">
+                <a class="link" href="#top"><img src="house.png" alt="home" style="height: 50px;"> Home</a>
+                <a class="link" href="#about"><img src="question.png" alt="about" style="height: 50px;"> About</a>
+                <a class="link" href="#contact"><img src="at.png" alt="contact" style="height: 50px;"> Contact</a>
+                <a class="link" href="#github"><img src="github.png" alt="github" style="height: 50px;"> GitHub</a>
+        </div>
+        
     </head>
-    <body>
-        <h1 id="name"></h1>
+    <body onload="typeWriter2(); typeWriter(); typeWriter3();">
+        <script src="main.js"></script>
+        <div class="mainDiv">
+            <div class="first">
+                <h1 id="name"></h1>
+            </div>
+
+            <div class="second">
+                <h3 id="heading"></h3>
+            </div>
+        </div>
+        <div id="aboutDiv" style="margin-top: 1000px; margin-bottom: 500px;">
+            <h1 id="about">About</h1>
+            <p id="aboutP"></p>
+        </div>
     </body>
 </html>
