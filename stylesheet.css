@@ -107,6 +107,7 @@ body {
     left: 0;
     padding: 0px 0;
     position: fixed;
+    z-index: 1;
 }
 
 .link {
