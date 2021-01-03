@@ -33,3 +33,7 @@ function typeWriter3() {
     setTimeout(typeWriter3, speed2);
   }
 }
+
+function lowerMenu() {
+    setEventListener('scroll', )
+}
