@@ -7,17 +7,30 @@
         </title>
         <link rel="stylesheet" href="stylesheet.css">
         <link rel="icon" href="cube.png">
-        <div class="linksDiv">
+        <div class="linksDiv" id="topnav">
                 <a class="link" href="#top"><img src="house.png" alt="home" style="height: 50px;"> Home</a>
                 <a class="link" href="#about"><img src="question.png" alt="about" style="height: 50px;"> About</a>
                 <a class="link" href="#contact"><img src="at.png" alt="contact" style="height: 50px;"> Contact</a>
                 <a class="link" href="#github"><img src="github.png" alt="github" style="height: 50px;"> GitHub</a>
                 <a class="link" href="#projects"><img src="project.png" alt="projects" style="height: 50px;"> Projects</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
         </div>
         
     </head>
     <body onload="typeWriter2(); typeWriter(); typeWriter3();">
         <script src="main.js"></script>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("topnav");
+                if (x.className === "linksDiv") {
+                x.className += " responsive";
+                } else {
+                x.className = "linksDiv";
+                }
+            }
+        </script>
         <div class="mainDiv">
             <div class="first">
                 <h1 id="name"></h1>
