@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&family=Press+Start+2P&display=swap');
 
 body {
+    margin: 0;
     background-color: black;
     color: white;
     font-family: 'Press Start 2P', cursive;
@@ -94,37 +95,31 @@ body {
     }
 }
 
-.linksDiv {
+.navbar {
     overflow: hidden;
     background-color: rgb(104, 104, 230);
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0px 0;
     position: fixed;
     z-index: 1;
+    width: 100%;
+    top: 0;
+    text-align: center;
 }
 
-.link {
-    display: block;
+.navbar a {
+    display: inline-block;
     text-align: center;
     color: white;
     font-size: 20px;
-    margin: 40px;
+    margin: 30px;
     text-decoration: none;
 }
 
-.link:hover {
+.navbar a:hover {
     color: rgb(236, 126, 126);
     cursor: pointer;
 }
 
-.link:active {
+.navbar a:active {
     color: red;
 }
 
@@ -150,7 +145,7 @@ body {
     margin-top: -100px;
 }
 
-#top {
+#home {
     top: 0;
 }
 
@@ -183,29 +178,29 @@ body {
     letter-spacing: 5px;
 }
 
-.linksDiv .icon {
+.navbar .icon {
     display: none;
 }
 
-@media screen and (max-width: 900px) {
-    .link:not(:first-child) {display: none;}
-    .link.icon {
+@media screen and (max-width: 1300px) {
+    .navbar a {display: none;}
+    .navbar a.icon {
       float: right;
       display: block;
     }
-  }
+}
   
-    @media screen and (max-width: 600px) {
-        .linksDiv.responsive {position: relative;}
-        .linksDiv.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
+@media screen and (max-width: 1300px) {
+    .navbar.responsive {position: relative;}
+    .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
     }
+}
 
-    .link.responsive {
-        float: none;
-        display: block;
-        text-align: left;
-    }
+.navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
 }
