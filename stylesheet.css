@@ -158,16 +158,13 @@ body {
 }
 
 #about {
-    animation: flicker 1s;
-    animation-delay: 1s;
     font-size: 60px;
     text-align: center;
     letter-spacing: 5px;
 }
 
-#aboutDiv {
-    margin-left: 200px;
-    margin-right: 200px;
+#about:hover {
+    animation: flicker 1s;
 }
 
 #contact {
@@ -224,5 +221,5 @@ body {
     #heading {
         font-size: 20px;
     }
-    
+
 }
