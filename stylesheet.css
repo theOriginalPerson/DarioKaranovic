@@ -13,6 +13,8 @@ body {
     background-attachment: fixed;
 }
 
+/* animations */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -95,6 +97,8 @@ body {
     }
 }
 
+/* everything controlling the navbar */
+
 .navbar {
     overflow: hidden;
     background-color: rgb(104, 104, 230);
@@ -123,6 +127,8 @@ body {
     color: red;
 }
 
+/* this is the mainDiv for the title name and heading */
+
 #name {
     animation: flicker 1s;
     animation-delay: 1s;
@@ -144,6 +150,8 @@ body {
 .mainDiv {
     margin-top: -100px;
 }
+
+/* the main sections */
 
 #home {
     top: 0;
@@ -177,6 +185,8 @@ body {
     text-align: center;
     letter-spacing: 5px;
 }
+
+/* the menu decreasing for when changing screen size */
 
 .navbar .icon {
     display: none;
