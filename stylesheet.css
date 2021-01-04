@@ -214,3 +214,15 @@ body {
     display: block;
     text-align: center;
 }
+
+/* this is for the font sizes to change for different screen sizes */
+
+@media screen and (max-width: 1300px) {
+    #name {
+        font-size: 40px;
+    }
+    #heading {
+        font-size: 20px;
+    }
+    
+}
