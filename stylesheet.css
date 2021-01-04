@@ -221,5 +221,67 @@ body {
     #heading {
         font-size: 20px;
     }
+    #about {
+        font-size: 40px;
+    }
+    #aboutP {
+        font-size: 20px;
+    }
+    #contact {
+        font-size: 40px;
+    }
+    #contactP {
+        font-size: 20px;
+    }
+    #projects {
+        font-size: 40px;
+    }
+}
 
+@media screen and (max-width: 700px) {
+    #name {
+        font-size: 3vw;
+    }
+    #heading {
+        font-size: 2vw;
+    }
+    #about {
+        font-size: 3vw;
+    }
+    #aboutP {
+        font-size: 2vw;
+    }
+    #contact {
+        font-size: 3vw;
+    }
+    #contactP {
+        font-size: 2vw;
+    }
+    #projects {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #name {
+        font-size: 3vw;
+    }
+    #heading {
+        font-size: 2vw;
+    }
+    #about {
+        font-size: 3vw;
+    }
+    #aboutP {
+        font-size: 2vw;
+    }
+    #contact {
+        font-size: 3vw;
+    }
+    #contactP {
+        font-size: 2vw;
+    }
+    #projects {
+        font-size: 3vw;
+    }
 }
