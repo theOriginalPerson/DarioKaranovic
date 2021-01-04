@@ -168,19 +168,23 @@ body {
 }
 
 #contact {
-    animation: flicker 1s;
-    animation-delay: 1s;
     font-size: 60px;
     text-align: center;
     letter-spacing: 5px;
 }
 
-#projects {
+#contact:hover {
     animation: flicker 1s;
-    animation-delay: 1s;
+}
+
+#projects {
     font-size: 60px;
     text-align: center;
     letter-spacing: 5px;
+}
+
+#projects:hover {
+    animation: flicker 1s;
 }
 
 /* the menu decreasing for when changing screen size */
