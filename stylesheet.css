@@ -13,6 +13,10 @@ body {
     background-attachment: fixed;
 }
 
+.margins {
+    margin: 10vw;
+}
+
 /* animations */
 
 @keyframes fadeIn {
@@ -240,6 +244,12 @@ body {
     #projects {
         font-size: 40px;
     }
+    .projectLink {
+        font-size: 20px;
+    }
+    .feedbackLink {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -264,9 +274,17 @@ body {
     #projects {
         font-size: 3vw;
     }
+    .projectLink {
+        font-size: 2vw;
+    }
 }
 
 @media screen and (max-width: 500px) {
+    body {
+        background-size: auto;
+        background-attachment: fixed;
+    }
+
     #name {
         font-size: 3vw;
     }
@@ -288,14 +306,31 @@ body {
     #projects {
         font-size: 3vw;
     }
+    .projectLink {
+        font-size: 2vw;
+    }
 }
 
 /* feedback link */
 .feedbackLink {
     color: white;
-    margin-top: 20px;
+    font-size: 2vw;
 }
 
 .feedbackLink:hover {
     animation: flicker 1s;
+}
+
+/* project links */
+.projectLink {
+    color: white;
+    text-decoration: none;
+}
+
+.project1 {
+    margin-top: auto;
+}
+
+.project2 {
+    margin-top: 20px;
 }
