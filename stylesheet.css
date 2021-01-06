@@ -191,6 +191,14 @@ body {
     animation: flicker 1s;
 }
 
+.projectLink:hover {
+    color: rgb(236, 126, 126);
+}
+
+.projectLink:active {
+    color: red;
+}
+
 /* the menu decreasing for when changing screen size */
 
 .navbar .icon {
@@ -324,6 +332,10 @@ body {
 
 .feedbackLink:hover {
     animation: flicker 1s;
+}
+
+.feedbackLink:active {
+    color: red;
 }
 
 /* project links */
