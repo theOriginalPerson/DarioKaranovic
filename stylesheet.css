@@ -295,9 +295,8 @@ body {
 @media screen and (max-width: 500px) {
     body {
         background-image: none;
-        background-color: rgb(133, 206, 255);
+        background-color: rgb(78, 224, 243);
     }
-
     #name {
         font-size: 3vw;
     }
@@ -322,6 +321,32 @@ body {
     .projectLink {
         font-size: 2vw;
     }
+    
+    .mainDiv {
+        padding-top: 100px;
+    }
+    .aboutDivClass {
+        padding-top: -500px;
+    }    
+    #aboutDiv {
+        padding-top: -1000px;
+        margin-top: -500px;
+    }
+    .projectsDivClass {
+        padding-top: -500px;
+    }
+    #projectsDiv {
+        padding-top: -1000px;
+        margin-top: -500px;
+    }
+    .contactDivClass {
+        padding-top: -500px;
+    }
+    #contactDiv {
+        padding-top: -1000px;
+        margin-top: -500px;
+    }
+
 }
 
 /* feedback link */
