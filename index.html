@@ -48,6 +48,16 @@
             <div id="aboutDiv" class="aboutDivClass" style="padding-top: 1000px;">
                 <h1 id="about">About</h1>
                 <p id="aboutP"></p>
+                <p id="date" style="color: white; text-align: center;"></p>
+                <script>
+                    var timeout = 11000;
+                    
+                    setTimeout(function() {
+                        var today = new Date();
+                        var time = (today.getMonth() + 1) + "/" + today.getDate() + "/" + today.getFullYear() + " at " + today.getHours() + "h:" + today.getMinutes() + "m:" + today.getSeconds() + "s";
+                        document.getElementById("date").innerHTML = time;
+                    }, timeout);
+                </script>
             </div>
 
             <div id="projectsDiv" class="projectsDivClass" style="padding-top: 1000px;">

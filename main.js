@@ -23,7 +23,7 @@ function typeWriter2() {
 }
 
 var i2 = 0;
-var txt2 = "Hi, my name is Dario! I dabble with HTML and CSS, along with JavaScript and Python. I also love to design products and build them! Check out the projects section to see what I have built!";
+var txt2 = "Hi, my name is Dario! I dabble with HTML and CSS, along with JavaScript and Python. I also love to design products and build them! Check out the projects section to see what I have built so far. As of: ";
 var speed2 = 50;
 
 function typeWriter3() {
