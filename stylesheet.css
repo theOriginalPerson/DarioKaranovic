@@ -164,7 +164,7 @@ body {
 
 #heading {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 5px;
     font-size: 25px;
     animation: flicker 1s;
     animation-delay: 1.5s;
