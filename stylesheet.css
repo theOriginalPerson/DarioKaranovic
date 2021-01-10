@@ -180,17 +180,26 @@ body {
 
 /* the main sections */
 
-#dummyDiv {
-    padding-top: 100px;
-}
-
 #home {
-    top: 0;
-    margin-top: -250px;
+    margin-top: 100px;
 }
 
-#dummyAbout {
-    padding-top: 100px;
+#home::before {
+    margin-top: -370px;
+    height: 100px;
+    visibility: hidden;
+    content: " ";
+    display: block;
+    pointer-events: none;
+}
+
+#about::before {
+    margin-top: -150px;
+    height: 150px;
+    visibility: hidden;
+    content: " ";
+    display: block;
+    pointer-events: none;
 }
 
 #about {
@@ -203,6 +212,15 @@ body {
     animation: flicker 1s;
 }
 
+#contact::before {
+    margin-top: -150px;
+    height: 150px;
+    visibility: hidden;
+    content: " ";
+    display: block;
+    pointer-events: none;
+}
+
 #contact {
     font-size: 60px;
     text-align: center;
@@ -211,6 +229,15 @@ body {
 
 #contact:hover {
     animation: flicker 1s;
+}
+
+#projects::before {
+    margin-top: -150px;
+    height: 150px;
+    visibility: hidden;
+    content: " ";
+    display: block;
+    pointer-events: none;
 }
 
 #projects {
