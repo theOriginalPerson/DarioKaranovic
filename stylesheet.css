@@ -180,8 +180,17 @@ body {
 
 /* the main sections */
 
+#dummyDiv {
+    padding-top: 100px;
+}
+
 #home {
     top: 0;
+    margin-top: -250px;
+}
+
+#dummyAbout {
+    padding-top: 100px;
 }
 
 #about {
