@@ -7,10 +7,14 @@ body {
     color: white;
     font-family: 'Press Start 2P', cursive;
     animation: fadeIn 3s;
-    background-image: url("pixelback.png");
+    background-image: url("lightwallpaper.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.nightTime {
+    background-image: url("darkwallpaper.jpg");
 }
 
 .margins {

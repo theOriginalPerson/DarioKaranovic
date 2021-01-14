@@ -45,3 +45,17 @@ function typeWriter4() {
     setTimeout(typeWriter4, speed3);
   }
 }
+
+var d = new Date();
+var n = d.getHours();
+console.log(n);
+
+function wallpaperSwitch() {
+  if (n >= 19 || n < 7) {
+    document.body.className = "nightTime";
+  }
+  else {
+    document.body.className = "dayTime";
+  }
+  console.log("test");
+}
