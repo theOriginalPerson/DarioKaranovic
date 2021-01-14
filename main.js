@@ -59,3 +59,12 @@ function wallpaperSwitch() {
   }
   console.log("test");
 }
+
+function colorSwitch() {
+  if (n >= 19 || n < 7) {
+    document.body.className = "nightColor";
+  }
+  else {
+    document.body.className = "dayColor";
+  }
+}

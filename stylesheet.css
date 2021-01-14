@@ -27,6 +27,14 @@ body {
     background-attachment: fixed;
 }
 
+.nightColor {
+    background-color: rgb(49, 14, 145);
+}
+
+.dayColor {
+    background-color: rgb(31, 120, 236);
+}
+
 .margins {
     margin: 10vw;
 }
@@ -363,7 +371,7 @@ body {
 @media screen and (max-width: 500px) {
     body {
         background-image: none;
-        background-color: rgb(78, 224, 243);
+        background-color: rgb(31, 120, 236);
     }
     #name {
         font-size: 3vw;
