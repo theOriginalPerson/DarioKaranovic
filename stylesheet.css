@@ -15,6 +15,16 @@ body {
 
 .nightTime {
     background-image: url("darkwallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.dayTime {
+    background-image: url("lightwallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .margins {
