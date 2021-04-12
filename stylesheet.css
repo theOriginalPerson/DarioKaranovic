@@ -27,7 +27,7 @@ body {
 }
 
 .dayColor {
-    background-color: rgb(223, 184, 255);
+    background-color: rgba(123, 75, 212, 0.829);
 }
 
 .margins {
@@ -246,6 +246,11 @@ body {
 
 #contact:hover {
     animation: flicker 1s;
+}
+
+.projectsTable {
+    font-size: 70%;
+    padding-top: 15px;
 }
 
 #projects::before {
