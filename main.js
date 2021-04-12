@@ -61,10 +61,10 @@ function wallpaperSwitch() {
 }
 
 function colorSwitch() {
-  if (n >= 19 || n < 7) {
+  if (n >= 19 || n < 7 && window.innerWidth < 400) {
     document.body.className = "nightColor";
   }
-  else {
+  else if (window.innerWidth < 400) {
     document.body.className = "dayColor";
   }
 }

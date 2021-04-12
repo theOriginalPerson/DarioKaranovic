@@ -3,14 +3,9 @@
 
 body {
     margin: 0;
-    background-color: black;
     color: white;
     font-family: 'Press Start 2P', cursive;
     animation: fadeIn 3s;
-    background-image: url("lightwallpaper.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .nightTime {
@@ -32,7 +27,7 @@ body {
 }
 
 .dayColor {
-    background-color: rgb(31, 120, 236);
+    background-color: rgb(10, 36, 30);
 }
 
 .margins {
@@ -368,11 +363,7 @@ body {
     }
 }
 
-@media screen and (max-width: 500px) {
-    body {
-        background-image: none;
-        background-color: rgb(31, 120, 236);
-    }
+@media screen and (max-width: 400px) {
     #name {
         font-size: 3vw;
     }
