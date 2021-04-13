@@ -278,7 +278,7 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1340px) {
     .navbar a {display: none;}
     .navbar a.icon {
       float: right;
@@ -291,7 +291,7 @@ body {
     }
 }
   
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1340px) {
     .navbar.responsive {position: relative;}
     .navbar.responsive a.icon {
     position: absolute;
@@ -330,9 +330,6 @@ body {
     #projects {
         font-size: 40px;
     }
-    .projectLink1, .projectLink2 {
-        font-size: 20px;
-    }
     .feedbackLink {
         font-size: 30px;
     }
@@ -360,12 +357,6 @@ body {
     #projects {
         font-size: 3vw;
     }
-    .projectLink1 {
-        font-size: 2vw;
-    }
-    .projectLink2 {
-        font-size: 2vw;
-    }
 }
 
 @media screen and (max-width: 400px) {
@@ -390,10 +381,6 @@ body {
     #projects {
         font-size: 3vw;
     }
-    .projectLink1, .projectLink2 {
-        font-size: 2vw;
-    }
-    
     .mainDiv {
         padding-top: 100px;
     }
