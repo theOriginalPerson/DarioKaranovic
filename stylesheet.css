@@ -251,6 +251,7 @@ body {
 .projectsTable {
     font-size: 70%;
     padding-top: 15px;
+    text-align: center;
 }
 
 #projects::before {
