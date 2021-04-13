@@ -53,18 +53,15 @@ console.log(n);
 function wallpaperSwitch() {
   if (n >= 19 || n < 7) {
     document.body.className = "nightTime";
+    if (window.innerWidth < 400) {
+      document.body.className = "nightColor";
+    }
   }
-  else {
+  else if (n < 19 || n >= 7 && window.innerWidth >= 400) {
     document.body.className = "dayTime";
+    if (window.innerWidth < 400) {
+      document.body.className = "dayColor";
+    }
   }
   console.log("test");
-}
-
-function colorSwitch() {
-  if (n >= 19 || n < 7 && window.innerWidth < 400) {
-    document.body.className = "nightColor";
-  }
-  else if (window.innerWidth < 400) {
-    document.body.className = "dayColor";
-  }
 }
