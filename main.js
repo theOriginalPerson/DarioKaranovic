@@ -1,5 +1,5 @@
 var a = 0;
-var text = 'Web Developer & Inventor';
+var text = 'Software Developer & Inventor';
 var spd = 50;
 
 function typeWriter() {
