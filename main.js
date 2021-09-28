@@ -1,5 +1,5 @@
 var a = 0;
-var text = 'Software Developer & Inventor';
+var text = 'Engineering Technology Student & Inventor';
 var spd = 50;
 
 function typeWriter() {
@@ -22,7 +22,7 @@ function typeWriter2() {
   }
 }
 
-var i2 = 0;
+/*var i2 = 0;
 var txt2 = "Hi, my name is Dario! I dabble with HTML and CSS, along with JavaScript and Python. I also love to design products and build them! Check out the projects section to see what I have built so far. As of: ";
 var speed2 = 50;
 
@@ -33,7 +33,7 @@ function typeWriter3() {
     setTimeout(typeWriter3, speed2);
   }
 }
-
+*/
 var i3 = 0;
 var txt3 = "If you have any questions, concerns, or feedback of any sort, please give me a shout at this link below (which should open your mail app). If the link does not open, fear not, just email me at: izumlaboratories@gmail.com";
 var speed3 = 50;

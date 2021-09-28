@@ -30,7 +30,7 @@
             </a>
         </div>
     </head>
-    <body onload="typeWriter(); typeWriter2(); typeWriter3(); typeWriter4(); wallpaperSwitch(); colorSwitch();">
+    <body onload="typeWriter(); typeWriter2(); typeWriter4(); wallpaperSwitch(); colorSwitch();">
         <script src="main.js"></script>
         <script>
             function decreaseMenu() {
@@ -58,17 +58,7 @@
             <div id="aboutDiv" class="aboutDivClass" style="padding-top: 1000px;">
                 <h2 id="dummyAbout"></h2>
                 <h1 id="about">About</h1>
-                <p id="aboutP"></p>
-                <p id="date" style="color: white; text-align: center; animation: fadeIn 3s; animation-delay: 10.5s;"></p>
-                <script class="timeScript">
-                    var timeout = 11000;
-                    
-                    setTimeout(function() {
-                        var today = new Date();
-                        var time = (today.getMonth() + 1) + "/" + today.getDate() + "/" + today.getFullYear() + " at " + today.getHours() + "h:" + today.getMinutes() + "m:" + today.getSeconds() + "s";
-                        document.getElementById("date").innerHTML = time;
-                    }, timeout);
-                </script>
+                <p id="aboutP" style="text-align: left;">-> Love designing circuits and programming software<br><br>-> Passionate about inventing<br><br>-> Experience with C#, Python, Arduino-language/C, HTML & CSS<br><br>-> Proficient in CAD software: particularly Fusion360 and AutoCAD<br><br>-> Bachelor's in Psychology</p>
             </div>
 
             <div id="projectsDiv" class="projectsDivClass" style="padding-top: 1000px;">
@@ -99,7 +89,7 @@
                 <div style="text-align: center; display: block; padding-top: 50px;">
                     <img style="height: 50px; vertical-align: middle; padding-bottom: 20px;" src="gearicon.png" alt="izum laboratories">
                     <a href = "mailto:izumlaboratories@gmail.com?subject = Feedback&body = Message" class="feedbackLink" style="text-align: center;">
-                        izum laboratories feedback
+                        click here to email me
                     </a>
                 </div>
             </div>

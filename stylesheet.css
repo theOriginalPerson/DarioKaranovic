@@ -249,7 +249,6 @@ body {
 }
 
 .projectsTable {
-    font-size: 70%;
     padding-top: 15px;
     text-align: center;
 }
@@ -358,6 +357,9 @@ body {
     #projects {
         font-size: 3vw;
     }
+    .projectsTable{
+        font-size: 2vw;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -381,6 +383,9 @@ body {
     }
     #projects {
         font-size: 3vw;
+    }
+    .projectsTable{
+        font-size: 2vw;
     }
     .mainDiv {
         padding-top: 100px;
