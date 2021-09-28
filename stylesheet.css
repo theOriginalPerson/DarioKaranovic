@@ -8,7 +8,7 @@ body {
     animation: fadeIn 3s;
 }
 
-.nightTime {
+/*.nightTime {
     background-image: url("darkwallpaper.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,6 +28,14 @@ body {
 
 .dayColor {
     background-color: rgba(123, 75, 212, 0.829);
+}*/
+
+.openingMargin{
+    margin-bottom: 50px;
+}
+
+#video{
+    z-index: -1;
 }
 
 .margins {
