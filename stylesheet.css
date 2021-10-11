@@ -46,17 +46,17 @@ body {
     right: 0;
 }
 
-.aboutClick {
+#aboutClick {
     font-size: large;
     margin-left: auto;
     margin-right: auto;
 }
-.aboutClick:hover {
+#aboutClick:hover {
     color: rgb(104, 104, 230);
     cursor: pointer;
 }
 
-.aboutClick:active {
+#aboutClick:active {
     color: black;
     animation: disappear 0.5s;
 }
@@ -402,7 +402,7 @@ body {
     #aboutP {
         font-size: 3vw;
     }
-    .aboutClick {
+    #aboutClick {
         font-size: 3vw;
     }
     #projects {
