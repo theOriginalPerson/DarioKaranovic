@@ -68,11 +68,7 @@ body {
 }
 
 #about {
-    margin-top: -1100px;
-}
-
-pre {
-    font-family: 'Orbitron', sans-serif;
+    margin-top: -1000px;
 }
 
 /* animations */
@@ -467,9 +463,6 @@ pre {
         font-size: 5vw;
     }
     #aboutP {
-        font-size: 3vw;
-    }
-    .aboutClick {
         font-size: 3vw;
     }
     #projects {

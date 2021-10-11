@@ -67,7 +67,12 @@
                     <h2 id="dummyAbout"></h2>
                     <h1 id="about">About</h1>
                     <p id="aboutP" style="text-align: left;"></p>
-                    <a class="aboutClick" onclick="typeWriter3()">-> Click to unlock information</a>
+                    <a class="aboutClick">-> Click to unlock information</a>
+                    <script>
+                        var aboutClick = document.getElementsByClassName("aboutClick");
+                        aboutClick.addEventListener("click", typeWriter3());
+                    </script>
+                    
                 </div>
 
                 <div id="projectsDiv" class="projectsDivClass" style="padding-top: 1000px;">
