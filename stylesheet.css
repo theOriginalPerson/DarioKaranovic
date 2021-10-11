@@ -378,90 +378,40 @@ pre {
 /* this is for the font sizes to change for different screen sizes */
 
 @media screen and (max-width: 1300px) {
+    .openingMargin{
+        margin-top: 1000px;
+    }
     #name {
-        font-size: 40px;
+        font-size: 5vw;
+        margin-top: 500px;
+    }
+    #video {
+        display: none;
     }
     #heading {
-        font-size: 20px;
+        font-size: 3vw;
+    }
+    #aboutDiv {
+        padding-top: 1000px;
     }
     #about {
-        font-size: 40px;
+        font-size: 5vw;
     }
     #aboutP {
-        font-size: 20px;
+        font-size: 3vw;
     }
-    #contact {
-        font-size: 40px;
-    }
-    #contactP {
-        font-size: 20px;
+    .aboutClick {
+        font-size: 3vw;
     }
     #projects {
-        font-size: 40px;
-    }
-    .feedbackLink {
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    #name {
-        font-size: 3vw;
-    }
-    #heading {
-        font-size: 2vw;
-    }
-    #about {
-        font-size: 3vw;
-    }
-    #aboutP {
-        font-size: 2vw;
-    }
-    #contact {
-        font-size: 3vw;
-    }
-    #contactP {
-        font-size: 2vw;
-    }
-    #projects {
-        font-size: 3vw;
+        font-size: 5vw;
     }
     .projectsTable{
-        font-size: 2vw;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    #name {
         font-size: 3vw;
-    }
-    #heading {
-        font-size: 2vw;
-    }
-    #about {
-        font-size: 3vw;
-    }
-    #aboutP {
-        font-size: 2vw;
-    }
-    #contact {
-        font-size: 3vw;
-    }
-    #contactP {
-        font-size: 2vw;
-    }
-    #projects {
-        font-size: 3vw;
-    }
-    .projectsTable{
-        font-size: 2vw;
     }
     .mainDiv {
         padding-top: 100px;
-    }
-    .aboutDivClass {
-        padding-top: -500px;
-    }    
+    } 
     #aboutDiv {
         padding-top: -1000px;
         margin-top: -500px;
@@ -480,12 +430,141 @@ pre {
         padding-top: -1000px;
         margin-top: -500px;
     }
+    #contact {
+        font-size: 5vw;
+    }
+    #contactP {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .mainDiv {
+        margin-bottom: 1000px;
+    }
+    .openingMargin{
+        margin-top: 1000px;
+    }
+    #name {
+        font-size: 5vw;
+        margin-top: 500px;
+    }
+    #video {
+        display: none;
+    }
+    #heading {
+        font-size: 3vw;
+    }
+    #aboutDiv {
+        padding-top: 1000px;
+    }
+    #about {
+        font-size: 5vw;
+    }
+    #aboutP {
+        font-size: 3vw;
+    }
+    .aboutClick {
+        font-size: 3vw;
+    }
+    #projects {
+        font-size: 5vw;
+    }
+    .projectsTable{
+        font-size: 3vw;
+    }
+    .mainDiv {
+        padding-top: 100px;
+    } 
+    #aboutDiv {
+        padding-top: -1000px;
+        margin-top: -500px;
+    }
+    .projectsDivClass {
+        padding-top: -500px;
+    }
+    #projectsDiv {
+        padding-top: -1000px;
+        margin-top: -500px;
+    }
+    .contactDivClass {
+        padding-top: -500px;
+    }
+    #contactDiv {
+        padding-top: -1000px;
+        margin-top: -500px;
+    }
+    #contact {
+        font-size: 5vw;
+    }
+    #contactP {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .openingMargin{
+        margin-top: 1000px;
+    }
+    #name {
+        font-size: 5vw;
+        margin-top: 500px;
+    }
+    #video {
+        display: none;
+    }
+
+    #heading {
+        font-size: 3vw;
+    }
+    #aboutDiv {
+        padding-top: 1000px;
+    }
+    #about {
+        font-size: 5vw;
+    }
+    #aboutP {
+        font-size: 3vw;
+    }
+    #projects {
+        font-size: 5vw;
+    }
+    .projectsTable{
+        font-size: 3vw;
+    }
+    .mainDiv {
+        padding-top: 100px;
+    } 
+    #aboutDiv {
+        padding-top: -1000px;
+        margin-top: -500px;
+    }
+    .projectsDivClass {
+        padding-top: -500px;
+    }
+    #projectsDiv {
+        padding-top: -1000px;
+        margin-top: -500px;
+    }
+    .contactDivClass {
+        padding-top: -500px;
+    }
+    #contactDiv {
+        padding-top: -1000px;
+        margin-top: -500px;
+    }
+    #contact {
+        font-size: 5vw;
+    }
+    #contactP {
+        font-size: 3vw;
+    }
 }
 
 /* feedback link */
 .feedbackLink {
     color: white;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 .feedbackLink:hover {
