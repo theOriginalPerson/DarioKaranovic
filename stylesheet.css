@@ -378,6 +378,10 @@ pre {
 /* this is for the font sizes to change for different screen sizes */
 
 @media screen and (max-width: 1300px) {
+    .mainDiv {
+        margin-bottom: 1000px;
+        padding-bottom: 1000px;
+    }
     .openingMargin{
         margin-top: 1000px;
     }
@@ -441,6 +445,7 @@ pre {
 @media screen and (max-width: 700px) {
     .mainDiv {
         margin-bottom: 1000px;
+        padding-bottom: 1000px;
     }
     .openingMargin{
         margin-top: 1000px;
@@ -503,6 +508,10 @@ pre {
 }
 
 @media screen and (max-width: 400px) {
+    .mainDiv {
+        margin-bottom: 1000px;
+        padding-bottom: 1000px;
+    }
     .openingMargin{
         margin-top: 1000px;
     }
