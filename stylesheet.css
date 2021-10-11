@@ -1,48 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 body {
     margin: 0;
     color: white;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Orbitron', sans-serif;
     animation: fadeIn 3s;
+    background-color: black;
 }
-
-/*.nightTime {
-    background-image: url("darkwallpaper.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.dayTime {
-    background-image: url("lightwallpaper.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.nightColor {
-    background-color: rgb(49, 14, 145);
-}
-
-.dayColor {
-    background-color: rgba(123, 75, 212, 0.829);
-}*/
 
 .openingMargin{
-    margin-bottom: 50px;
+    width: 100%;
+}
+
+.mainDiv {
+    margin-top: -750px;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    text-align: center;
 }
 
 #video{
     z-index: -1;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 120ch;
+    text-align: center;
+}
+
+.openingMargin {
+    box-shadow: 0 0 200px 200px black inset;
 }
 
 .margins {
-    margin: 10vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    left: 0;
+    right: 0;
+}
+
+.aboutClick {
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutClick:hover {
+    color: rgb(104, 104, 230);
+    cursor: pointer;
+}
+
+.aboutClick:active {
+    color: black;
+    animation: disappear 0.5s;
+}
+
+#aboutDiv {
+    background-image: url(nightsky.jpeg);
+    box-shadow: 0 0 100px 100px black inset;
+    margin-top: 1000px;
+}
+
+#about {
+    margin-top: -1100px;
+}
+
+pre {
+    font-family: 'Orbitron', sans-serif;
 }
 
 /* animations */
+
+@keyframes fadeout {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes yeet {
+    from {
+        padding-left: 0;
+    }
+    to {
+        padding-left: 10000px;
+    };
+}
+
+@keyframes disappear {
+    from {
+        color: rgb(104, 104, 230);
+    }
+    to {
+        color: black;
+    }
+}
 
 @keyframes fadeIn {
     from {
@@ -147,7 +210,7 @@ body {
     overflow: hidden;
     background-color: rgb(104, 104, 230);
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     width: 100%;
     top: 0;
     text-align: center;
@@ -181,6 +244,7 @@ body {
     font-size: 60px;
     text-align: center;
     letter-spacing: 5px;
+    z-index: 1;
 }
 
 #name:active {
@@ -199,14 +263,10 @@ body {
     animation: bounce 0.2s;
 }
 
-.mainDiv {
-    margin-top: -100px;
-}
-
 /* the main sections */
 
 #home {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #home::before {
@@ -259,6 +319,7 @@ body {
 .projectsTable {
     padding-top: 15px;
     text-align: center;
+    border: 1px solid white;
 }
 
 #projects::before {

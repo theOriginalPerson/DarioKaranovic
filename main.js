@@ -1,5 +1,5 @@
 var a = 0;
-var text = 'Engineering Technology Student & Inventor';
+var text = 'Prospective Engineer & Inventor';
 var spd = 50;
 
 function typeWriter() {
@@ -22,46 +22,14 @@ function typeWriter2() {
   }
 }
 
-/*var i2 = 0;
-var txt2 = "Hi, my name is Dario! I dabble with HTML and CSS, along with JavaScript and Python. I also love to design products and build them! Check out the projects section to see what I have built so far. As of: ";
-var speed2 = 50;
+var i2 = 0;
+const listInfo = ["-> Love designing & building circuits", "-> Passionate about inventing", "-> Experience with C#, Python, Arduino-language/C, HTML, CSS, and Javascript", "-> Proficient in CAD software: particularly Fusion360, Onshape and AutoCAD", "-> Bachelor's in Psychology"];
+var speed2 = 800;
 
 function typeWriter3() {
-  if (i2 < txt2.length) {
-    document.getElementById("aboutP").innerHTML += txt2.charAt(i2);
+  if (i2<listInfo.length) {
+    document.getElementById("aboutP").innerHTML += listInfo[i2] + "<br><br>";
     i2++;
     setTimeout(typeWriter3, speed2);
   }
-}
-*/
-var i3 = 0;
-var txt3 = "If you have any questions, concerns, or feedback of any sort, please give me a shout at this link below (which should open your mail app). If the link does not open, fear not, just email me at: izumlaboratories@gmail.com";
-var speed3 = 50;
-
-function typeWriter4() {
-  if (i3 < txt3.length) {
-    document.getElementById("contactP").innerHTML += txt3.charAt(i3);
-    i3++;
-    setTimeout(typeWriter4, speed3);
-  }
-}
-
-var d = new Date();
-var n = d.getHours();
-console.log(n);
-
-function wallpaperSwitch() {
-  if (n >= 19 || n < 7) {
-    document.body.className = "nightTime";
-    if (window.innerWidth < 400) {
-      document.body.className = "nightColor";
-    }
-  }
-  else if (n < 19 || n >= 7 && window.innerWidth >= 400) {
-    document.body.className = "dayTime";
-    if (window.innerWidth < 400) {
-      document.body.className = "dayColor";
-    }
-  }
-  console.log("test");
 }
