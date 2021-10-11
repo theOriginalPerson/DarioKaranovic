@@ -357,7 +357,9 @@ body {
 }
   
 @media screen and (max-width: 1340px) {
-    .navbar.responsive {position: relative;}
+    .navbar.responsive {
+        position: fixed;
+    }
     .navbar.responsive a.icon {
     position: absolute;
     right: 0;
