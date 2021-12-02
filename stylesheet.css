@@ -543,17 +543,17 @@ body {
 }
 
 /* project links */
-.projectLink1, .projectLink2 {
+.projectLink1, .projectLink2, .projectLink3 {
     color: white;
     text-decoration: none;
     vertical-align: middle;
     line-height: 70px;
 }
 
-.projectLink1:hover, .projectLink2:hover {
+.projectLink1:hover, .projectLink2:hover, .projectLink3:hover {
     color: rgb(236, 126, 126);
 }
 
-.projectLink1:active, .projectLink2:active {
+.projectLink1:active, .projectLink2:active, .projectLink3:active{
     color: red;
 }
